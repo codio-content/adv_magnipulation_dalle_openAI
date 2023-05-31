@@ -1,0 +1,68 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2011872140",
+	"source": {
+		"name": "checking the mode",
+		"showName": false,
+		"instructions": "In the given code, what is the purpose of checking the mode of the `moon_image`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c45e9a01-dc92-4220-17a5-d502f6227f88",
+				"correct": false,
+				"answer": "To determine the size of the image"
+			},
+			{
+				"_id": "cdec82c9-dcb6-4fe4-7c3e-389f8e920998",
+				"correct": true,
+				"answer": "To check if the image has a transparent background"
+			},
+			{
+				"_id": "2ed60477-bf70-0897-1b32-61e7fb93ecb5",
+				"correct": false,
+				"answer": "To verify the image format"
+			},
+			{
+				"_id": "febbc401-7a1b-0b3c-16e4-e767735e980e",
+				"correct": false,
+				"answer": "To identify the position of the image\n"
+			}
+		],
+		"guidance": "The purpose of checking the mode of the `moon_image` is to determine if the image has a transparent background. The code checks for the modes 'RGBA', 'LA', or 'P' with 'transparency' in the image information. If the image has a transparent background, the `paste()` function uses the `moon_image` as a mask to preserve transparency when overlaying it on the night sky image.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"imageGen.py",
+				"image_name.jpg"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "imageGen.py"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "image_name.jpg"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

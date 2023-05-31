@@ -1,0 +1,62 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-144853477",
+	"source": {
+		"name": "requests.get() ",
+		"showName": false,
+		"instructions": "What is the purpose of using the `requests.get()` method in this lesson?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "8e6a510e-8c74-1361-98e1-bc584bd9cbe5",
+				"correct": false,
+				"answer": "To import the necessary libraries"
+			},
+			{
+				"_id": "9cf86732-d4fd-02c5-73b9-8c3469f73642",
+				"correct": false,
+				"answer": "To create the image generation function"
+			},
+			{
+				"_id": "864003db-0a1d-101a-71e7-d04d28a171b2",
+				"correct": true,
+				"answer": "To download the generated image from the URL"
+			},
+			{
+				"_id": "212ddee8-812a-7871-401b-1444890bcace",
+				"correct": false,
+				"answer": "To combine the moon and night sky images"
+			}
+		],
+		"guidance": "The `requests.get()` method is used to download the generated image from the URL returned by the generate_base_image function. The image data is then saved into a file using a with `open()` statement.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"imageGen.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "imageGen.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

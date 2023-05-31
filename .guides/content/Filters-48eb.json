@@ -1,0 +1,21 @@
+{
+	"id": "48eb7d7b-e14b-1dab-df4e-0d24668fc233",
+	"title": "Filters",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "ImageGen2.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": ""
+}

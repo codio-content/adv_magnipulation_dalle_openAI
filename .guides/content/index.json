@@ -1,0 +1,23 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Learning-Objectives-ea75",
+		"Image-Composition-6b8a",
+		"Image-Overlay-ba11",
+		"Filters-48eb",
+		"Edges-8f33",
+		"Coding-Exercise-9f1c"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": true,
+	"theme": "light",
+	"title": "Adv. Image Manipulation",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

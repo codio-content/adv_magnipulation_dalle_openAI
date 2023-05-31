@@ -1,0 +1,62 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1927310745",
+	"source": {
+		"name": "filters",
+		"showName": false,
+		"instructions": "Which filter can be used to create a high-contrast, black-and-white image that highlights the shapes in the scene?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "587e78ea-730b-c404-8e20-3eedd62a5a00",
+				"correct": false,
+				"answer": "Gaussian blur"
+			},
+			{
+				"_id": "af4c8486-ee2a-73da-e725-b15412b0e07d",
+				"correct": true,
+				"answer": "Contour"
+			},
+			{
+				"_id": "575e1452-a6fd-b567-fec2-0aa42ae7a3e6",
+				"correct": false,
+				"answer": "Edge detection"
+			},
+			{
+				"_id": "3d9f8fe1-6378-36e4-8380-ae78b3b17c1b",
+				"correct": false,
+				"answer": "Sharpening"
+			}
+		],
+		"guidance": "The contour filter can be used to create a high-contrast, black-and-white image that highlights the shapes in the scene. It traces the edges of objects in the image, emphasizing their shapes.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"ImageGen2.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "ImageGen2.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2053686188",
+	"source": {
+		"name": "filter",
+		"showName": false,
+		"instructions": "What is the purpose of the edge enhance filter?",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "04e4b57e-a183-3238-bd12-39529d0346b0",
+				"correct": false,
+				"answer": "To create a high-contrast, black-and-white image"
+			},
+			{
+				"_id": "0867864f-51a7-752f-cbc0-5ebf8afb010f",
+				"correct": false,
+				"answer": "To soften the image by reducing noise and details"
+			},
+			{
+				"_id": "9831602f-f7e4-b9e4-b143-ab7938302ce3",
+				"correct": true,
+				"answer": "To highlight the edges of objects in the image, making them more distinct and pronounced"
+			},
+			{
+				"_id": "f1312bf5-848d-4f66-b024-a848dbe8d5d5",
+				"correct": false,
+				"answer": "To trace the edges of objects in the image"
+			}
+		],
+		"guidance": "The edge enhance filter is used to highlight the edges of objects in the image, making them more distinct and pronounced. This filter can be used to create a more stylized or artistic effect.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"ImageGen2.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "ImageGen2.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}
