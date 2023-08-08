@@ -4,7 +4,7 @@
 	"source": {
 		"name": "checking the mode",
 		"showName": false,
-		"instructions": "In the given code, what is the purpose of checking the mode of the `moon_image`?",
+		"instructions": "**In the given code, what is the purpose of checking the mode of the `moon_image`?**",
 		"multipleResponse": false,
 		"isRandomized": false,
 		"answers": [

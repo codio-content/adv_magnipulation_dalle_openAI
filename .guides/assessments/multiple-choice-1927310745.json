@@ -4,7 +4,7 @@
 	"source": {
 		"name": "filters",
 		"showName": false,
-		"instructions": "Which filter can be used to create a high-contrast, black-and-white image that highlights the shapes in the scene?",
+		"instructions": "**Which filter can be used to create a high-contrast, black-and-white image that highlights the shapes in the scene?**",
 		"multipleResponse": false,
 		"isRandomized": false,
 		"answers": [

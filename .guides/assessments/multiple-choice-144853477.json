@@ -4,7 +4,7 @@
 	"source": {
 		"name": "requests.get() ",
 		"showName": false,
-		"instructions": "What is the purpose of using the `requests.get()` method in this lesson?",
+		"instructions": "**What is the purpose of using the `requests.get()` method in this lesson?**",
 		"multipleResponse": false,
 		"isRandomized": false,
 		"answers": [
@@ -29,7 +29,7 @@
 				"answer": "To combine the moon and night sky images"
 			}
 		],
-		"guidance": "The `requests.get()` method is used to download the generated image from the URL returned by the generate_base_image function. The image data is then saved into a file using a with `open()` statement.",
+		"guidance": "The `requests.get()` method is used to download the generated image from the URL returned by the  `generate_base_image` function. The image data is then saved into a file using a with `open()` statement.",
 		"showGuidanceAfterResponseOption": {
 			"type": "Attempts",
 			"passedFrom": 2

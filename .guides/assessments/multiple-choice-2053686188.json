@@ -4,7 +4,7 @@
 	"source": {
 		"name": "filter",
 		"showName": false,
-		"instructions": "What is the purpose of the edge enhance filter?",
+		"instructions": "**What is the purpose of the edge enhance filter?**",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [

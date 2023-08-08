@@ -4,7 +4,7 @@
 	"source": {
 		"name": "Coding Exer",
 		"showName": false,
-		"instructions": "When ready to submit, please click the button below.",
+		"instructions": "**When ready to submit, please click the button below.**",
 		"command": "python test.py",
 		"preExecuteCommand": "",
 		"options": {
@@ -39,12 +39,13 @@
 				}
 			],
 			"files": [
+				"exerc.py",
 				"ImageGen2.py"
 			],
 			"opened": [
 				{
 					"type": "file",
-					"content": "ImageGen2.py"
+					"content": "exerc.py"
 				}
 			]
 		},

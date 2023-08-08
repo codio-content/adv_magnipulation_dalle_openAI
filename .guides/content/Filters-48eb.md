@@ -64,7 +64,7 @@ blurred_image.save('blurred_red_apple.jpg')
 
 #### Contour
 
-The contour filter traces the edges of objects in the image, creating a high-contrast, black-and-white image that highlights the shapes in the scene.
+The contour filter traces the edges of objects in the image, creating a high-contrast image. It is a filter that enhances the edges and boundaries within an image, making them more pronounced. It detects areas with rapid changes in pixel intensity and applies a highlighting effect to the edges. The resulting image will have a stylized appearance, emphasizing the contours of objects in the image. It is usually a black-and-white image that highlights the shapes in the scene.
 ```python
 from PIL import ImageFilter
 

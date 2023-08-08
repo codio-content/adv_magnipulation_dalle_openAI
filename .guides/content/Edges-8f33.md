@@ -20,7 +20,7 @@ edge_enhanced_image.save('edge_enhanced_red_apple.jpg')
 [Click here to refresh your edge_enhanced apple image](close_file edge_enhanced_red_apple.jpg panel=1; open_file edge_enhanced_red_apple.jpg panel=1)
 
 #### Find Edges
-The find edges filter detects the edges of objects in the image and creates a high-contrast, black-and-white image that highlights these edges.
+The find edges filter is another type of image filter that enhances the edges in an image, similar to the contour filter. However, the find edges filter typically produces a more pronounced and higher contrast effect, making the edges stand out even more. 
 ```python
 from PIL import ImageFilter
 

@@ -35,7 +35,6 @@ night_sky_image=Image.open('night_sky_image.jpg')
 # Resize the moon image to fit the composition
 moon_image = moon_image.resize((200, 200), Image.ANTIALIAS)
 # Overlay the moon image on top of the night sky image
-# Overlay the moon image on top of the night sky image
 if moon_image.mode in ('RGBA', 'LA') or (moon_image.mode == 'P' and 'transparency' in moon_image.info):
     night_sky_image.paste(moon_image, (0, 0), moon_image)
 else:

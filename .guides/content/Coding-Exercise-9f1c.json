@@ -2,12 +2,21 @@
 	"chapter": false,
 	"closeTerminalSession": true,
 	"contentType": "markdown",
-	"files": [],
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "exerc.py",
+			"action": "open"
+		}
+	],
 	"id": "9f1c0ce5-7acd-db4d-afc3-eeb91035cfa6",
 	"learningObjectives": "",
 	"path": [],
-	"reset": [],
 	"teacherOnly": false,
 	"title": "Coding Exercise",
-	"type": "page"
+	"type": "page",
+	"layout": ""
 }

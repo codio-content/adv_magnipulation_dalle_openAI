@@ -27,5 +27,4 @@ edge_enhanced_image = plane_image.filter(ImageFilter.EDGE_ENHANCE)
 # Save the edge enhanced image to a file
 edge_enhanced_image.save('enhanced_plane.png')
 
-
 #CODIO SOLUTION END
